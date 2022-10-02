@@ -1,1 +1,2 @@
-gunicorn nasa_application.wsgi --log-file
+web:gunicorn nasa_application.wsgi
+heroku ps:scale web=1
