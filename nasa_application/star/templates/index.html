@@ -14,7 +14,7 @@
         <div class="bg">
             <div class="bg-content">
                 <h1 class="title-1 line-1 anim-typewriter">Welcome to Space</h1>
-                <a class="btn-posnawr" href="#">Start Learning<span></span></a>
+                <a class="btn-posnawr" href="../static/Rohan.html">Start Learning<span></span></a>
             </div>
         </div>
     <hr>
@@ -26,10 +26,10 @@
                 <div class="content">
                     <h2 class="title">{{post.title}}</h2>
                     <p class="copy"></p>
-                    <a href="% url 'post_detail' post.slug %" class="btn">Read More&rarr;</a>
+                    <a href="{% url 'post_detail' post.slug %}" class="btn">Read More&rarr;</a>
                 </div>
-                {%endfor%}
             </div>
+                {%endfor%}
         </div>
     </section>
     <section class="teams">
@@ -63,7 +63,7 @@
 .bg{
     width: 100%;
     height: 100vh;
-    background-image: url(/img/background.jpg);
+    background-image: url(https://img.freepik.com/free-photo/galaxy-nature-aesthetic-background-starry-sky-mountain-remixed-media_53876-126761.jpg?w=1060&t=st=1664718817~exp=1664719417~hmac=ed04961f16ced140c73f999f5e41de445f4d59f3e95f657ef8d86c00eeac3d28);
     background-size: cover;
     background-position: center center;
  

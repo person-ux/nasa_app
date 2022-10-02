@@ -130,3 +130,4 @@ TEMPLATES_DIRS = os.path.join(BASE_DIR,'templates')
 PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
 
 TAGGIT_CASE_INSENSITIVE = True
+STATIC_ROOT = os.path.join(BASE_DIR, "static")
